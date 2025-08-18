@@ -11,6 +11,11 @@ print(b-a)
 print(a*b)
 # Division
 print(a/b)
+# Absolut valu of a number
+def valor_absoluto(x):
+    return x if x >= 0 else -x 
+
+print(valor_absoluto(-13))
 
 
 
